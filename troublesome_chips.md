@@ -15,6 +15,7 @@ trying to use I2C. Here's a few of the ones to watch for
   respond to zero-length writes, so scanning the I2C bus to find the
   device can fail.
 - PN532 - Clock stretching.
+- AM2320 - Automatic sleep behavior causes unreliable scanning.
 
 If you're using Raspberry Pi with these chips, check out our
 [guide on how to work-around clock stretching](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/i2c-clock-stretching).
